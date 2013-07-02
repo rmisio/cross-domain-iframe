@@ -1,0 +1,9 @@
+{
+  "name": "cross-domain-iframe-test",
+  "description": "Testing communication with a cross-domain iframe",
+  "author": "Rob M.",
+  "dependencies": {
+    "express": "3.1.x"
+  },
+  "engine": "node >= 0.10.0"
+}
