@@ -1,3 +1,28 @@
 #login-form {
     margin: 10px;
 }
+
+iframe {
+    width: 600px;
+    margin-left: 25px;
+}
+
+@media only screen and (min-width : 200px) and (max-width : 600px) {
+    body {
+        background-color: orange;
+    }
+
+    iframe {
+        width: 300px;
+    }
+
+    .sugar p {
+        color: white;
+    }
+}
+
+@media only screen and (min-width : 200px) and (max-width : 480px) {
+    body.sugar {
+        background-color: green;
+    }
+}            
